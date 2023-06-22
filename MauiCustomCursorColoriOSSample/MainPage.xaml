@@ -17,16 +17,13 @@
 
             <Entry
                 Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" SelectionLength="5" />
 
-            <Label
+            <Editor
                 Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center" SelectionLength="5" />
 
             <Button
                 x:Name="CounterBtn"

@@ -22,6 +22,13 @@ public static class MauiProgram
 #endif
         });
 
+        Microsoft.Maui.Handlers.EditorHandler.Mapper.AppendToMapping("CursorColor", (handler, view) =>
+        {
+#if IOS
+            handler.PlatformView.TintColor = UIKit.UIColor.Green;
+#endif
+        });
+
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
