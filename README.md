@@ -1,3 +1,5 @@
+Blog post describing the implementation: https://blog.verslu.is/maui/change-cursor-color-maui-ios/
+
 # .NET MAUI Custom Cursor Color iOS Sample
 Sample code to demonstrate how to give the cursor and selection a custom color with .NET MAUI on iOS
 
